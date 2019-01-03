@@ -3,13 +3,13 @@ import Book.Book;
 public class Position {
 	private String bookNo;
 	private String address;
-	private boolean inLibrary;
+	private String inLibrary;
 	
 	Position()
 	{
 		Book book;
 	}
-	Position(String bookNo,String address,boolean inLibrary)
+	Position(String bookNo,String address,String inLibrary)
 	{
 		this.bookNo=bookNo;
 		this.address=address;
@@ -33,11 +33,11 @@ public class Position {
 		return address;
 	}
 	
-	public void setInLibrary(boolean inLibrary )
+	public void setInLibrary(String inLibrary )
 	{
 		this.inLibrary=inLibrary;
 	}
-	public boolean getInLibrary()
+	public String getInLibrary()
 	{
 		return inLibrary;
 	}

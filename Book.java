@@ -77,7 +77,7 @@ public class Book {
 	public void setPublishDate(String publishDate) {
 		this.publishDate = publishDate;
 	}
-	public String BookNo() {
+	public String getBookNo() {
 		return bookNo;
 	}
 	public void setBookNo(String bookNo) {
